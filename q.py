@@ -108,8 +108,8 @@ class InventoryApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Inventory Manager")
-        self.style = tb.Style("flatly")
-     #  self.style = tb.Style("darkly")
+     #  self.style = tb.Style("flatly")
+        self.style = tb.Style("darkly")
         self.data = get_filtered_data()
         
         self.search_var = tk.StringVar()
